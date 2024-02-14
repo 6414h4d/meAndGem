@@ -1,8 +1,16 @@
 <div class="container">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-sm-6">
+            <div class="videoDiv" *ngIf="joke.type == 'video'">
+                <youtube-player 
+                    width="80%"
+                    videoId="{{joke.id}}"></youtube-player>
+            </div>
+        </div>
+    </div>
 	<div class="row">
-		<div class="videoDiv" *ngIf="joke.type == 'video'">
-			<youtube-player videoId="{{joke.id}}"></youtube-player>
-
+		<div class="col-1">
+			<button  mat-raised-button color="accent">Next</button>
 		</div>
 	</div>
 </div>

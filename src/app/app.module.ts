@@ -4,8 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JokeComponent } from './joke/joke.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { YouTubePlayerModule } from '@angular/youtube-player';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 
@@ -17,7 +18,7 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
   imports: [
     BrowserModule,
     AppRoutingModule,
-	NgbModule,
+	MatButtonModule,
 	YouTubePlayerModule
   ],
   providers: [],

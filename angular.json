@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "meAndGem:build:production"
+              "buildTarget": "meAndGem:build:production"
             },
             "development": {
-              "browserTarget": "meAndGem:build:development"
+              "buildTarget": "meAndGem:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "meAndGem:build"
+            "buildTarget": "meAndGem:build"
           }
         },
         "test": {
