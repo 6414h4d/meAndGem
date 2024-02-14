@@ -8,7 +8,7 @@ import { YouTubePlayerModule } from '@angular/youtube-player'
   styleUrls: ['./joke.component.css']
 })
 export class JokeComponent implements OnInit{
-	//  https://www.youtube.com/watch?v=
+	// https://www.youtube.com/watch?v=
 	// https://www.youtube.com/shorts/
 	videos: Content[] = [
 		{title: 'Wadiyatalkinabeet', id: 'Wbgk4zOZ4UE', type: 'video'},

@@ -6,6 +6,9 @@
                     width="80%"
                     videoId="{{joke.id}}"></youtube-player>
             </div>
+			<div class="imageDiv" *ngIf="joke.type == 'image'" >
+				<img src="{{joke.id}}" alt="">
+			</div>
         </div>
     </div>
 	<div class="row">
