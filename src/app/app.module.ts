@@ -4,8 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JokeComponent } from './joke/joke.component';
-import { YouTubePlayerModule } from '@angular/youtube-player';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { YouTubePlayerModule } from '@angular/youtube-player';
+
+
 
 @NgModule({
   declarations: [
@@ -15,8 +17,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-	YouTubePlayerModule,
- NgbModule
+	NgbModule,
+	YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
