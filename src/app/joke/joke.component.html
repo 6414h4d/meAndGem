@@ -1,6 +1,7 @@
 <div class="container">
     <div class="row justify-content-center align-items-center">
         <div class="col-sm-6">
+			<h3>{{joke.title}}</h3>
             <div class="videoDiv" *ngIf="joke.type == 'video'">
                 <youtube-player 
                     width="80%"
