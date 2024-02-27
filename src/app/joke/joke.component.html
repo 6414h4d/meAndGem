@@ -5,16 +5,19 @@
             <div class="videoDiv" *ngIf="joke.type == 'video'">
                 <youtube-player 
                     width="80%"
-                    videoId="{{joke.id}}"></youtube-player>
+                    videoId="{{joke.id}}"
+					></youtube-player>
             </div>
-			<div class="imageDiv" *ngIf="joke.type == 'image'" >
-				<img src="{{joke.id}}" alt="">
-			</div>
         </div>
+		<div class="imageContainer">
+			<div class="imageDiv" *ngIf="joke.type == 'image'" >
+				<img src="{{joke.id}}" alt="" width="80%">
+			</div>
+		</div>
     </div>
 	<div class="row">
-		<div class="col-1">
-			<button  mat-raised-button color="accent">Next</button>
+		<div class="">
+			<button>Next</button>
 		</div>
 	</div>
 </div>
