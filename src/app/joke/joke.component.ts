@@ -11,10 +11,10 @@ export class JokeComponent implements OnInit{
 	// https://www.youtube.com/watch?v=
 	// https://www.youtube.com/shorts/
 	videos: Content[] = [
-		// {title: 'Wadiyatalkinabeet', id: 'Wbgk4zOZ4UE', type: 'video',start:0, finish:0},
-		// {title: 'Berries and Cream', id: 'M75u2TJOYTU', type: 'video',start: 0 , finish:0 },
-		// {title: 'FUCKING YOU ARE FUCKING', id:'ukznXQ3MgN0', type:'video',start:0, finish:0},
-		// {title: 'Of Course!', id:"_tZckjQylGU", type:"video",start:0, finish:0},
+		{title: 'Wadiyatalkinabeet', id: 'Wbgk4zOZ4UE', type: 'video',start:0, finish:0},
+		{title: 'Berries and Cream', id: 'M75u2TJOYTU', type: 'video',start: 0 , finish:0 },
+		{title: 'FUCKING YOU ARE FUCKING', id:'ukznXQ3MgN0', type:'video',start:0, finish:0},
+		{title: 'Of Course!', id:"_tZckjQylGU", type:"video",start:0, finish:0},
 		{title: "oohh.. disloyalty", id:'8sXHMqY18ho', type: "video", start:49, finish:55},
 		// {title: "...pregnant", id:'https://www.youtube.com/embed/Ugkx6xswRLBohMXQgUTRavZ1d2Oz9u__Pwfb', type: "video",start:0, finish:0},
 		// {title: "Your moves are week babe >:(", id:"zNYCxyQ3Odo", type:"video",start:0, finish:0},
